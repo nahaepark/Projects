@@ -1,0 +1,89 @@
+{
+  "id": "a8cbc3ee-4974-40ce-9d9f-c323e52440bd",
+  "name": "pillRegister",
+  "auto": true,
+  "contexts": [
+    "pillRegister"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "pillRegister",
+      "affectedContexts": [
+        {
+          "name": "alarmControl",
+          "lifespan": 5
+        },
+        {
+          "name": "pillRegister",
+          "lifespan": 5
+        },
+        {
+          "name": "pillControl",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "60f5d7ec-c934-4726-ba5e-86d094bfdec6",
+          "name": "company",
+          "required": true,
+          "dataType": "@company",
+          "value": "$company",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "어느 회사의 영양제인가요?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c2373102-17c8-48bb-833a-a3430a07f458",
+          "name": "product",
+          "required": true,
+          "dataType": "@products",
+          "value": "$product",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "정확한 제품명을 알려주세요"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "$company 의 $product 이(가) 등록되었습니다! 다른 도움이 필요하신가요?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

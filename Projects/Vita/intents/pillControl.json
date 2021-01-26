@@ -1,0 +1,50 @@
+{
+  "id": "14311f53-8776-42f4-a000-9e8e7008dab8",
+  "name": "pillControl",
+  "auto": true,
+  "contexts": [
+    "pillControl"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "pillRegister",
+          "lifespan": 5
+        },
+        {
+          "name": "pillList",
+          "lifespan": 5
+        },
+        {
+          "name": "pillDelete",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "영양제 관리 도와드리겠습니다. \n1. 영양제 등록\n2. 영양제 리스트 보기\n어떻게 도와드릴까요?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,120 @@
+[
+  {
+    "id": "06e2177d-b098-4ac0-92d2-e4d943edf9ba",
+    "data": [
+      {
+        "text": "1",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "번",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "d09aa64c-50dd-4f5e-b953-19eb047304f5",
+    "data": [
+      {
+        "text": "첫번째",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "d8ec3e9b-57bd-434a-a797-699066d2abea",
+    "data": [
+      {
+        "text": "1",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "a88116d2-f1f5-4ae4-a23c-ad0f14d827e0",
+    "data": [
+      {
+        "text": "영양제",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " 추가해줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "123264cb-f0b8-496b-9ed8-b6ccaea256ae",
+    "data": [
+      {
+        "text": "영양제",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " 등록해줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "1c41112d-84df-49a4-b9c6-41e8b12c3668",
+    "data": [
+      {
+        "text": "영양제",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " 추가",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "22feb1cf-aa41-415f-bce9-8033239e424d",
+    "data": [
+      {
+        "text": "영양제",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "등록할래",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]

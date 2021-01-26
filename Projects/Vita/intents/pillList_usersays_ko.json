@@ -1,0 +1,84 @@
+[
+  {
+    "id": "4e20a976-17e9-4811-9f92-768d6a958bf8",
+    "data": [
+      {
+        "text": "영양제",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " 리스트",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "3ceedfbf-7b7e-4a32-b778-43f6aaef4e86",
+    "data": [
+      {
+        "text": "영양제",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " 목록",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "c97439f7-737e-4332-9436-9aca692b725d",
+    "data": [
+      {
+        "text": "두번째",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "586bb939-5d95-41f5-a781-7f49ef5ad3a6",
+    "data": [
+      {
+        "text": "2",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "a1f31688-dff4-485d-9146-9fceef97ea43",
+    "data": [
+      {
+        "text": "2",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "번",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]

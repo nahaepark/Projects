@@ -1,0 +1,93 @@
+{
+  "id": "9e9398f7-0453-465b-bbcc-4b54fdb4e307",
+  "name": "alarmDelete",
+  "auto": true,
+  "contexts": [
+    "alarmDelete"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "alarmControl",
+          "lifespan": 5
+        },
+        {
+          "name": "alarmList",
+          "lifespan": 5
+        },
+        {
+          "name": "alarmCreate",
+          "lifespan": 5
+        },
+        {
+          "name": "pillControl",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "60124517-76a0-4796-b425-5070be083dfb",
+          "name": "date",
+          "required": true,
+          "dataType": "@date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "무슨 요일의 알람을 삭제하고 싶으신가요?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "fb6b7e9f-88f7-4bab-b1c1-f70a601168fa",
+          "name": "time",
+          "required": true,
+          "dataType": "@sys.time",
+          "value": "$time",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "몇시 알람을 삭제하고 싶으신가요?(am과 pm으로 구분하여 주세요)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "$date $time의 알람이 삭제되었습니다."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

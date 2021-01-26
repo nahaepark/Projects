@@ -1,0 +1,50 @@
+{
+  "id": "464322a8-8396-4fad-9e11-0bc74ca3588f",
+  "name": "pillList",
+  "auto": true,
+  "contexts": [
+    "pillList"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "pillControl",
+          "lifespan": 5
+        },
+        {
+          "name": "pillRegister",
+          "lifespan": 5
+        },
+        {
+          "name": "alarmControl",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "#pillRegister.company의 #pillRegister.product 가 등록되어있습니다."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

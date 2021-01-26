@@ -1,0 +1,54 @@
+{
+  "id": "e373da7d-487a-4a7d-8a9d-9f48ef22fe97",
+  "name": "alarmList",
+  "auto": true,
+  "contexts": [
+    "alarmList"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "alarmControl",
+          "lifespan": 5
+        },
+        {
+          "name": "pillControl",
+          "lifespan": 5
+        },
+        {
+          "name": "alarmCreate",
+          "lifespan": 5
+        },
+        {
+          "name": "alarmDelete",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "매주 #alarmCreate.date #alarmCreate.time에 알람이 등록되어 있습니다."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

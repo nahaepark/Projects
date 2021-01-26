@@ -1,0 +1,65 @@
+{
+  "id": "3269da83-022c-4ec5-9d8a-d70c1c8bc70d",
+  "name": "alarmControl",
+  "auto": true,
+  "contexts": [
+    "alarmControl"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "alarmCreate",
+          "lifespan": 5
+        },
+        {
+          "name": "alarmList",
+          "lifespan": 5
+        },
+        {
+          "name": "alarmDelete",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b3558aa9-f41d-4b36-8cb2-cb81797d9776",
+          "name": "person",
+          "required": false,
+          "dataType": "@sys.person",
+          "value": "$person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "네 알람 관리 도와 드리겠습니다. \n1. 알람 생성\n2. 알람 리스트 보기\n3. 알람 삭제\n어떻게 도와드릴까요?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

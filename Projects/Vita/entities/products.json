@@ -1,0 +1,9 @@
+{
+  "id": "b4c4306e-5f42-4b29-bd50-595e1b3951f6",
+  "name": "products",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

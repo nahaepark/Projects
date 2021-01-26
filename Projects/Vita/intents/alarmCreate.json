@@ -1,0 +1,81 @@
+{
+  "id": "ae81b1ce-4000-449e-b73e-8610bd0a5365",
+  "name": "alarmCreate",
+  "auto": true,
+  "contexts": [
+    "alarmCreate"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "alarmControl",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "aee5125c-8e6a-4c9f-8fe1-e8eb03f6d277",
+          "name": "date",
+          "required": true,
+          "dataType": "@date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "어느 요일에 알람을 설정할까요?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c032b662-31ea-46f0-a5a9-c3b934e95e0c",
+          "name": "time",
+          "required": true,
+          "dataType": "@sys.time",
+          "value": "$time",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "몇시에 알람을 설정할까요? (am, pm으로 구분해 주세요)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "매주 $date $time에 알람이 등록되었습니다! 다른 도움은 필요 없으신가요?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

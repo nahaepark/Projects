@@ -1,0 +1,57 @@
+[
+  {
+    "id": "f59a7d3f-e223-46cf-8064-a0df9c09db20",
+    "data": [
+      {
+        "text": "영양제",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "0c6aaa16-b70e-4ca6-b550-62bdc21b9c0b",
+    "data": [
+      {
+        "text": "영양제",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "설정",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "fecd3f66-1097-4703-b981-413b984b7d05",
+    "data": [
+      {
+        "text": "영양제",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "관리",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]

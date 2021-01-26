@@ -1,0 +1,52 @@
+{
+  "id": "233704f9-d833-4bfe-a930-3c204c187cb2",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "newUser",
+          "lifespan": 5
+        },
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "existUser",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "비타에 오신것을 환영합니다. 저는 알람을 설정할 수 있고 영양제의 영양소를 검색할 수 있어요! 처음오셨나요?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

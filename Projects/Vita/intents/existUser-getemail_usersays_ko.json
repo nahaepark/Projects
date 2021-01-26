@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ea367b59-d7d0-477e-9d1a-d5aa7bf54bc3",
+    "data": [
+      {
+        "text": "회원 입니다.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "c4a74a1a-39a1-4bee-96a1-5c29512c4e53",
+    "data": [
+      {
+        "text": "회원",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "4fbe11e0-a373-4b23-b3dc-40e5008a6620",
+    "data": [
+      {
+        "text": "기존회원",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "50e895f1-8851-4dad-a323-06f1470a4176",
+    "data": [
+      {
+        "text": "기존회원이야",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "b599290e-87c2-4888-8453-5b76bea942fe",
+    "data": [
+      {
+        "text": "아니야",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "30f62a83-b6d2-4195-a186-ef59eb56d50d",
+    "data": [
+      {
+        "text": "처음",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " 아니야",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "9886ed68-2e38-4549-b4ee-f5bfa8da369e",
+    "data": [
+      {
+        "text": "아니",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]

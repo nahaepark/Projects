@@ -1,0 +1,81 @@
+{
+  "id": "9ce16004-d599-44a4-8982-0c2f5010e7f8",
+  "name": "newUserQ-register",
+  "auto": true,
+  "contexts": [
+    "newUserRegister"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "newUserQ.newUserQ-register",
+      "affectedContexts": [
+        {
+          "name": "existUser",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3d7e465c-ee39-43b0-8ef7-9f3ffb38e7e3",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "등록하실 이메일 주소를 알려주세요"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b1c5ecb0-5a17-44d2-a77e-07604c64ea06",
+          "name": "name",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "성함을 알려주세요"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "등록해주셔서 감사해요 $name 님"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

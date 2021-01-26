@@ -1,0 +1,114 @@
+[
+  {
+    "id": "e71a6f07-4dc2-44ed-8518-a9ec9ae51c44",
+    "data": [
+      {
+        "text": "2",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "a0a3c2f2-71a1-4cda-b812-a2866f1d5a56",
+    "data": [
+      {
+        "text": "두번째",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "b737e903-1842-45f2-9235-2bb5ced469f2",
+    "data": [
+      {
+        "text": "2",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "번",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "0c34f3f6-828e-419c-99d3-6cf78c03396a",
+    "data": [
+      {
+        "text": "2번째",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "2da95de6-4a98-465e-a725-435e162be3be",
+    "data": [
+      {
+        "text": "알람 확인",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "19996dd5-af2e-45fe-826b-281ad4769b5b",
+    "data": [
+      {
+        "text": "알람 리스트",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "5ce93898-ddeb-4396-b0f2-3dddfca975f0",
+    "data": [
+      {
+        "text": "알람목록",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "57478c28-4e9e-42b5-a98c-4e50a7a25a7f",
+    "data": [
+      {
+        "text": "알람목록볼래",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]

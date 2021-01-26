@@ -1,0 +1,46 @@
+{
+  "id": "6a23598d-055c-4342-83c9-55fb54733aa1",
+  "name": "newUserQ",
+  "auto": true,
+  "contexts": [
+    "newUser"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.newUseQ",
+      "affectedContexts": [
+        {
+          "name": "newUserRegister",
+          "lifespan": 5
+        },
+        {
+          "name": "newUserQ-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "처음 오셨군요! 회원등록을 하시겠어요?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

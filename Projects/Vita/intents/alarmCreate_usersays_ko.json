@@ -1,0 +1,136 @@
+[
+  {
+    "id": "aad07690-6813-4cf2-b58f-932713f3c517",
+    "data": [
+      {
+        "text": "하나",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "8db0e548-deda-480b-829e-403a8ef3933a",
+    "data": [
+      {
+        "text": "일",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "c6a37615-d305-4f97-945b-1aeb6ddaaffa",
+    "data": [
+      {
+        "text": "일번",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "8ba71169-8dab-4a40-8dc6-644283e3bb90",
+    "data": [
+      {
+        "text": "첫번째",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "5cbdcc63-3d85-441b-8fa0-5e78b28e54e7",
+    "data": [
+      {
+        "text": "알람 만들래",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "a182fd45-183d-471b-a08f-6ae80523af86",
+    "data": [
+      {
+        "text": "알람 등록",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "fc17566d-0eb8-4362-909e-b6806dd6b61b",
+    "data": [
+      {
+        "text": "알람 등록할래",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "26078e16-b528-41bb-b3be-0f7a2ddb0227",
+    "data": [
+      {
+        "text": "신규알람",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "0a62abf2-ee9b-4605-a7c8-a588cde60d34",
+    "data": [
+      {
+        "text": "알람생성",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "b4d7ee7d-63a8-4935-924b-12da05b8d5db",
+    "data": [
+      {
+        "text": "1",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]

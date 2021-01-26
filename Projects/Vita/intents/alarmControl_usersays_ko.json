@@ -1,0 +1,57 @@
+[
+  {
+    "id": "5e5d7233-695b-46f7-80c5-d97d10974541",
+    "data": [
+      {
+        "text": "알람 ",
+        "userDefined": false
+      },
+      {
+        "text": "관리",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      },
+      {
+        "text": " 할래",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "28c6e50f-7fc4-4494-a3bb-f36d9e191e80",
+    "data": [
+      {
+        "text": "알람",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "c0834700-a9d3-4fc6-a5b3-92f4cc21fc14",
+    "data": [
+      {
+        "text": "알람",
+        "userDefined": false
+      },
+      {
+        "text": "관리",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]

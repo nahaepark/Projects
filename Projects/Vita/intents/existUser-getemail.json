@@ -1,0 +1,66 @@
+{
+  "id": "33d10c7a-e4fb-4ccb-b2bb-8b5b62395777",
+  "name": "existUser-getemail",
+  "auto": true,
+  "contexts": [
+    "existUser"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "existUser-getemail",
+      "affectedContexts": [
+        {
+          "name": "alarmControl",
+          "lifespan": 5
+        },
+        {
+          "name": "pillControl",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "314c3d13-e3f4-4536-a71e-2956bcd6009f",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "등록하신 이메일을 알려주세요"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "ko",
+          "speech": [
+            "$email 님! 알림관리와 영양제 관리를 도와드릴 수 있습니다. 어떻게 도와드릴까요?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

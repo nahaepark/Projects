@@ -1,0 +1,119 @@
+[
+  {
+    "id": "e5e55845-aab2-4c86-b65a-d01a3810e39c",
+    "data": [
+      {
+        "text": "오랜만이야",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "7051493f-1c1d-4939-a3a2-e19de8a1ccb6",
+    "data": [
+      {
+        "text": "안녕",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "e43290d8-bb24-4c2a-a01a-e39e482178cd",
+    "data": [
+      {
+        "text": "저기",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "051d9a15-e393-4341-9fd7-520952c66acd",
+    "data": [
+      {
+        "text": "잘 있었어",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "497bdc07-6196-49a0-ab6e-9e9bd655bd76",
+    "data": [
+      {
+        "text": "반가워",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "fdcf9415-6f98-4cb2-9937-ec97780f4654",
+    "data": [
+      {
+        "text": "오랜만",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "fdb76acb-90a7-434e-b544-d39a2e935178",
+    "data": [
+      {
+        "text": "어떻게 지냈어",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "578b6b1c-af18-4f50-9600-4ed64ae87c7e",
+    "data": [
+      {
+        "text": "잘 지냈니",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  },
+  {
+    "id": "40a8c6a4-c6f7-4021-9013-8a95418ce610",
+    "data": [
+      {
+        "text": "오늘 어때",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "ko",
+    "updated": 0
+  }
+]
